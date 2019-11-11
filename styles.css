@@ -118,7 +118,7 @@ img {
 .boxes {
   display: grid;
   grid-gap: 20px;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(275px, 1fr));
 }
 
 .box {
@@ -152,11 +152,11 @@ img {
 
 /* FOOTER */
 footer {
-  margin-top: 2rem;
+  margin-top: 1rem;
   background: var(--dark);
   color: var(--light);
   text-align: center;
-  padding: 1rem;
+  padding: 0.1rem;
 }
 
 /* MEDIA QUEIES */
